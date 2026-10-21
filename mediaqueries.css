@@ -49,9 +49,9 @@
   .skill-group + .skill-group { border-top: 1px solid var(--line); border-left: 0; }
   .skill-number { margin-bottom: 13px; }
   .skill-group h3 { margin-bottom: 13px; }
-  .projects-note { grid-template-columns: 44px 1fr; gap: 16px; padding: 21px; }
-  .projects-note-mark { width: 42px; height: 42px; }
-  .text-link { grid-column: 2; }
+  .projects-grid { grid-template-columns: 1fr; }
+  .project-card { padding: 22px; }
+  .project-card > p:not(.project-type) { min-height: 0; }
   .contact-section, .contact-inner { min-height: calc(100svh - 68px); }
   .contact-inner { padding-top: 68px; padding-bottom: 44px; }
   .contact-links { flex-wrap: wrap; gap: 12px 22px; margin-top: 52px; }

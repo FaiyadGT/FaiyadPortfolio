@@ -138,7 +138,7 @@ if ("IntersectionObserver" in window) {
   document.body.classList.add("js-ready");
 
   const revealTargets = document.querySelectorAll(
-    ".section-heading, .about-copy, .fact-card, .experience-entry, .skill-group, .projects-note, .contact-inner > *",
+    ".section-heading, .about-copy, .fact-card, .experience-entry, .skill-group, .project-card, .contact-inner > *",
   );
 
   revealTargets.forEach((element, index) => {
